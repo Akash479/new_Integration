@@ -14,7 +14,7 @@ public class AppController {
 	@GetMapping("/getApp")
 	ResponseEntity m1() {
 		
-		return new ResponseEntity("Application Is Running", null, 200);
+		return new ResponseEntity("Hello World", null, 200);
 		
 	}
 }
